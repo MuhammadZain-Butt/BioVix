@@ -40,7 +40,7 @@ cd BioVis
 #### For Windows:
 ```powershell
 python -m venv env_name
-.\env_name\Scripts\Activate.ps1
+.env_name\Scripts\activate.bat
 ```
 #### For Linux:
 ```powershell
