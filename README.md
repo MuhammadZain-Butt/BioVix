@@ -1,11 +1,11 @@
-# BioVis: An Integrated Tool for Data Visualization, AI-Powered Interpretation, and Scholarly Literature Search via Natural Language Query (NLQ)
+# BioVix: An Integrated Tool for Data Visualization, AI-Powered Interpretation, and Scholarly Literature Search via Natural Language Query (NLQ)
 
 ## Overview
 
-BioVis is a Streamlit-based web application that combines data visualization with AI-powered insights. It enables users to upload datasets, generate interactive charts using natural language queries, and discover relevant academic research papers.mIt uses the plotly library for data vizualization, deepseek V3.1 for NLP and semantic scholar for literature search. And for the conversational feature we use the gpt oss 20b due to it's consistent and structured output format and qwen2.5-vl-32b-instruct is selected for processing the user quey with his uploaded graph to help the undersatnding realted it's graph pattern or trends.
+BioVix is a Streamlit-based web application that combines data visualization with AI-powered insights. It enables users to upload datasets, generate interactive charts using natural language queries, and discover relevant academic research papers.mIt uses the plotly library for data vizualization, deepseek V3.1 for NLP and semantic scholar for literature search. And for the conversational feature we use the gpt oss 20b due to it's consistent and structured output format and qwen2.5-vl-32b-instruct is selected for processing the user quey with his uploaded graph to help the undersatnding realted it's graph pattern or trends.
 
 
-![User Interface](https://github.com/MuhammadZainButt0/BioVis/blob/main/overview.jpg)
+![User Interface](https://github.com/MuhammadZainButt0/BioVix/blob/main/overview.jpg)
 
        
 ## Features
@@ -32,8 +32,8 @@ BioVis is a Streamlit-based web application that combines data visualization wit
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MuhammadZainButt0/BioVis.git
-cd BioVis
+git clone https://github.com/MuhammadZainButt0/BioVix.git
+cd BioVix
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file in the project root directory (as in BioVis):
+Create a `.env` file in the project root directory (as in BioVix):
 
 ```
 DEEPSEEK_API_KEY="your_deepseek_key_here"
@@ -77,27 +77,27 @@ The app will open in your browser at `http://localhost:8501`
 
 ## Results
 
-Following are the some outcomes of BioVis, on different datasets. In the following panels (section A) show the dataset, (section B) shows the interactive visualization with plotly, (section D) shows the AI-generated explanation and formulated query out of graph or data  and (section C)
-shows the relevant research papers which BioVis retrieve from the Semantic scholar upon thhe formulated query as: 
+Following are the some outcomes of BioVix, on different datasets. In the following panels (section A) show the dataset, (section B) shows the interactive visualization with plotly, (section D) shows the AI-generated explanation and formulated query out of graph or data  and (section C)
+shows the relevant research papers which BioVix retrieve from the Semantic scholar upon thhe formulated query as: 
 
 - **Figures**:
   1. **On Gene Expression Dataset**
       
-     ![Gene Expression Dataset](https://github.com/MuhammadZainButt0/BioVis/blob/main/results/Gene_expression.png)
+     ![Gene Expression Dataset](https://github.com/MuhammadZainButt0/BioVix/blob/main/results/Gene_expression.png)
      
   2. **Chromatin Accesible dataset**
      
-     ![Chromatin Accesible dataset](https://github.com/MuhammadZainButt0/BioVis/blob/main/results/Chromatin_accessible.png)
+     ![Chromatin Accesible dataset](https://github.com/MuhammadZainButt0/BioVix/blob/main/results/Chromatin_accessible.png)
      
   3. **Clinical Diabetic Dataset**
      
-     ![Clinical Diabetic Dataset](https://github.com/MuhammadZainButt0/BioVis/blob/main/results/Clinical_Diabetic.png)
+     ![Clinical Diabetic Dataset](https://github.com/MuhammadZainButt0/BioVix/blob/main/results/Clinical_Diabetic.png)
 
 
 
 ## Deployment
 
-BioVis is deployed on hugging face. If user wants to test or use the BioVis, [click here](https://huggingface.co/spaces/ml4genomics/BioVis.)
+BioVix is deployed on hugging face. If user wants to test or use the BioVix, [click here](https://huggingface.co/spaces/ml4genomics/BioVix.)
 
 # Tips for Success
 
