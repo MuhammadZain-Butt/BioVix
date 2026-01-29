@@ -5,7 +5,7 @@
 BioVix is a Streamlit-based web application that combines data visualization with AI-powered insights. It enables users to upload datasets, generate interactive charts using natural language queries, and discover relevant academic research papers.mIt uses the plotly library for data vizualization, deepseek V3.1 for NLP and semantic scholar for literature search. And for the conversational feature we use the gpt oss 20b due to it's consistent and structured output format and qwen2.5-vl-32b-instruct is selected for processing the user quey with his uploaded graph to help the undersatnding realted it's graph pattern or trends.
 
 
-![User Interface](https://github.com/MuhammadZainButt0/BioVix/blob/main/overview.jpg)
+![User Interface](https://github.com/MuhammadZain-Butt/BioVix/blob/main/overview.jpg)
 
        
 ## Features
@@ -83,21 +83,21 @@ shows the relevant research papers which BioVix retrieve from the Semantic schol
 - **Figures**:
   1. **On Gene Expression Dataset**
       
-     ![Gene Expression Dataset](https://github.com/MuhammadZainButt0/BioVix/blob/main/results/Gene_expression.png)
+     ![Gene Expression Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Gene_expression.png)
      
   2. **Chromatin Accesible dataset**
      
-     ![Chromatin Accesible dataset](https://github.com/MuhammadZainButt0/BioVix/blob/main/results/Chromatin_accessible.png)
+     ![Chromatin Accesible dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Chromatin_accessible.png)
      
   3. **Clinical Diabetic Dataset**
      
-     ![Clinical Diabetic Dataset](https://github.com/MuhammadZainButt0/BioVix/blob/main/results/Clinical_Diabetic.png)
+     ![Clinical Diabetic Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Clinical_Diabetic.png)
 
 
 
 ## Deployment
 
-BioVix is deployed on hugging face. If user wants to test or use the BioVix, [click here](https://huggingface.co/spaces/ml4genomics/BioVix.)
+BioVix is deployed on hugging face. If user wants to test or use the BioVix, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix.)
 
 # Tips for Success
 
