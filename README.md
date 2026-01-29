@@ -97,7 +97,7 @@ shows the relevant research papers which BioVix retrieve from the Semantic schol
 
 ## Deployment
 
-BioVix is deployed on hugging face. If user wants to test or use the BioVix, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix.)
+BioVix is deployed on hugging face. If user wants to test or use the BioVix, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
 
 # Tips for Success
 
