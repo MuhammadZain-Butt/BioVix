@@ -1,8 +1,8 @@
-# BioVix: An Integrated Tool for Data Visualization, AI-Powered Interpretation, and Scholarly Literature Search via Natural Language Query (NLQ)
+# BioVix: An Integrated Large Language Model Framework for Data Visualization, Graph Interpretation, and Literature-Aware Scientific Validation
 ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Overview
 
-BioVix is a Streamlit-based web application that combines data visualization with AI-powered insights. It enables users to upload datasets, generate interactive charts using natural language queries, and discover relevant academic research papers. It uses the plotly library for data visualization, DeepSeek V3.1 for NLP, and Semantic Scholar for literature search. And for the conversational feature we use the GPT OSS 20b due to it's consistent and structured output format, and qwen2.5-vl-32b-instruct is selected for processing the user quey with its uploaded graph to help the undersatnding realted it's graph pattern or trends.
+BioVix is an AI-assisted visualization tool built on Streamlit that streamlines the workflow from data analysis to literature discovery. By integrating Plotly for visualization, DeepSeek V3.1 for query processing, and Semantic Scholar for bibliographic search, it offers a robust analytical environment. Furthermore, the system incorporates GPT-OSS-20B for structured dialogue and Qwen2.5-VL-32B-Instruct for visual graph reasoning, enabling users to gain a deeper understanding of data trends through natural language interaction.
 
 
 ![User Interface](https://github.com/MuhammadZain-Butt/BioVix/blob/main/overview.jpg)
@@ -105,8 +105,9 @@ BioVix is deployed on hugging face. If user wants to test or use the BioVix, [cl
 - Try to make query in simple and detail manner, avoid informal words. 
 - On every run the results may be different, so check the reliabilty before the usage of information.
   
-# Contributing
-We welcome contributions! Please fork the repository and submit pull requests for any enhancements or bug fixes.
+
+# Reference
+In Process.
 
 # Contact Us
 For any questions or issues, please contact us at:
