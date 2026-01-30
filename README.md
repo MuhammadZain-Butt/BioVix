@@ -83,7 +83,7 @@ shows the relevant research papers which BioVix retrieve from the Semantic schol
 - **Figures**:
   1. **On Gene Expression Dataset**
       
-     ![Gene Expression Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Gene_expression.png)
+     ![Gene Expression Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure%2004.jpg)
      
   2. **Chromatin Accesible dataset**
      
