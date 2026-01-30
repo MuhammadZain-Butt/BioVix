@@ -9,7 +9,7 @@
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
-5. [Running the Application](#running-the-application)
+5. [Running BioVix](#running-biovix)
 6. [Outputs](#outputs)
 7. [Deployment](#deployment)
 8. [Tips for Success](#tips-for-success)
@@ -88,7 +88,7 @@ Tip: If you do not have these API keys, you can create accounts here to generate
 - [OpenRouter](https://openrouter.ai/models) 
 - [Semantic Scholar](https://www.semanticscholar.org/product/api)
 
-## 5. Running the Application
+## Running BioVix
 
 After installing dependencies and setting up your environment, you can start BioVix using Streamlit.
 
