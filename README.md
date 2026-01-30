@@ -81,13 +81,13 @@ Following are the some outcomes of BioVix, on different datasets. In the followi
 shows the relevant research papers which BioVix retrieve from the Semantic scholar upon thhe formulated query as: 
 
 - **Figures**:
-  1. **On Gene Expression Dataset**
+  1. **Gene-level Protein Expression Dataset**
       
-     ![Gene Expression Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure%2004.jpg)
+     ![Gene-level Protein Expression](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure%2004.jpg)
      
-  2. **Chromatin Accesible dataset**
+  2. **Peak Annotation dataset**
      
-     ![Chromatin Accesible dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Chromatin_accessible.png)
+     ![Peak Annotation dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure%2005.jpg)
      
   3. **Clinical Diabetic Dataset**
      
