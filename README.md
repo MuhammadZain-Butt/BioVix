@@ -135,7 +135,7 @@ In Process.
 # License
 
 This BioVix is licensed under the MIT License - see the [LICENSE](License) file for details.
-Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/BioVix/blob/main/License).
+Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/BioVix/issues).
 
 
 # Contact Us
