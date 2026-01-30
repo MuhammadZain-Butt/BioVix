@@ -1,6 +1,22 @@
 # BioVix: An Integrated Large Language Model Framework for Data Visualization, Graph Interpretation, and Literature-Aware Scientific Validation
 ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
-## Overview
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-green)
+
+
+## Table of Contents
+1. [overview](#overview)
+2. [Features](#features)
+3. [Prerequisites](#prerequisites)
+4. [Installation](#installation)
+5. [Running the Application](#running-the-application)
+6. [Outputs](#outputs)
+7. [Deployment](#deployment)
+8. [Tips for Success](#tips-for-success)
+9. [Reference](#reference)
+10. [Contact Us](#contact-us)
+
+## overview
 
 BioVix is an AI-assisted visualization tool built on Streamlit that streamlines the workflow from data analysis to literature discovery. By integrating Plotly for visualization, DeepSeek V3.1 for query processing, and Semantic Scholar for bibliographic search, it offers a robust analytical environment. Furthermore, the system incorporates GPT-OSS-20B for structured dialogue and Qwen2.5-VL-32B-Instruct for visual graph reasoning, enabling users to gain a deeper understanding of data trends through natural language interaction.
 
@@ -10,13 +26,13 @@ BioVix is an AI-assisted visualization tool built on Streamlit that streamlines 
        
 ## Features
 
-- **Data Upload & Management**: Support for CSV, TSV, and Excel (.xlsx) formats
-- **AI-Powered Chart Generation**: Generate Plotly visualizations from natural language queries
-- **AI Insights**: Automatic analysis and explanation of generated charts
-- **Academic Research Integration**: Auto-discovery of relevant research papers via Semantic Scholar
-- **Graph Interpreter**: Analyze uploaded graph images with AI
-- **Data Q&A**: Ask questions about your dataset and get AI-driven answers
-- **Sample Datasets**: Pre-loaded datasets for quick testing (Apple Stock, Gene Expression, Hospital Data)
+- **Data Upload & Management**: Supports CSV, TSV, and Excel (.xlsx) formats.  
+- **AI-Powered Chart Generation**: Create interactive Plotly visualizations from natural language queries.  
+- **AI Insights**: Automatically analyze and provide explanations for generated charts.  
+- **Academic Research Integration**: Discover relevant research papers via Semantic Scholar.  
+- **Graph Interpreter**: Analyze uploaded graph images using AI.  
+- **Data Q&A**: Ask questions about your dataset and receive AI-driven answers.  
+- **Sample Datasets**: Access pre-loaded datasets for quick testing (Apple Stock, Gene Expression, Hospital Data).  
 
 ## Prerequisites
 
@@ -37,17 +53,20 @@ cd BioVix
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
-#### For Windows:
+It is highly recommended to use a virtual environment to avoid dependency conflicts.
+
+#### Windows:
 ```powershell
 python -m venv env_name
 .env_name\Scripts\activate.bat
 ```
-#### For Linux:
+Note: Replace `env_name` with your preferred name for the virtual environment.
+#### Linux / macOS:
 ```powershell
 python3 -m venv env_name
 source env_name\bin\activate
 ```
-User can also skip the above step if he don't have the knowlegde of virtual environment, and can proceed to the next step.
+Note: Replace `env_name` with your preferred name for the virtual environment.
 
 ### 3. Install Dependencies
 
@@ -65,20 +84,22 @@ GPT_API_KEY="your_gpt_key_here"
 QWEN_API_KEY="your_qwen_key_here"
 SEMANTIC_SCHOLAR_API_KEY="your_semantic_scholar_key_here"
 ```
-If you don't have above API's, then create account on [OpenRouter](https://openrouter.ai/models) and [Semantic Scholar](https://www.semanticscholar.org/product/api) to generate the above keys.
+Tip: If you do not have these API keys, you can create accounts here to generate them:
+- [OpenRouter](https://openrouter.ai/models) 
+- [Semantic Scholar](https://www.semanticscholar.org/product/api)
 
 ## 5. Running the Application
+
+After installing dependencies and setting up your environment, you can start BioVix using Streamlit.
 
 ```powershell
 streamlit run app.py
 ```
+Once the command runs, the app will automatically open in your default browser at: `http://localhost:8501`
 
-The app will open in your browser at `http://localhost:8501`
+## Outputs
 
-## Results
-
-Following are the some outcomes of BioVix, on different datasets. In the following panels (section A) show the dataset, (section B) shows the interactive visualization with plotly, (section D) shows the AI-generated explanation and formulated query out of graph or data  and (section C)
-shows the relevant research papers which BioVix retrieve from the Semantic scholar upon thhe formulated query as: 
+The following panels illustrate the outputs of BioVix across varying datasets. Section A displays the raw input data, while Section B presents the corresponding interactive visualization rendered with Plotly. Section D provides the AI-generated interpretation of the graph, along with the derived search query. Finally, Section C lists the relevant research papers retrieved from Semantic Scholar using the formulated query: 
 
 - **Figures**:
   1. **Gene-level Protein Expression Dataset**
@@ -97,13 +118,13 @@ shows the relevant research papers which BioVix retrieve from the Semantic schol
 
 ## Deployment
 
-BioVix is deployed on hugging face. If user wants to test or use the BioVix, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
+BioVix is deployed on Hugging Face and can be tested or used by users directly, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
 
 # Tips for Success
 
-- Ensure your input files are correctly formatted such as csv, xlsx or tsv,  and contain all information required for visualization.
-- Try to make query in simple and detail manner, avoid informal words. 
-- On every run the results may be different, so check the reliabilty before the usage of information.
+- Ensure that input files are correctly formatted (e.g., CSV, XLSX, or TSV) and contain all information required for visualization.
+- Write queries in a clear and detailed manner, and avoid using informal language.
+- Use consistent naming conventions for columns and variables to improve clarity and interpretation.
   
 
 # Reference
