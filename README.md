@@ -14,8 +14,9 @@
 6. [Outputs](#outputs)
 7. [Deployment](#deployment)
 8. [Tips for Success](#tips-for-success)
-9. [Reference](https://github.com/MuhammadZain-Butt/BioVix/blob/main/License)
-10. [Contact Us](#contact-us)
+9. [Reference](#reference)
+10. [License](#license)
+11. [Contact Us](#contact-us)
 
 ## overview
 
@@ -130,6 +131,12 @@ BioVix is deployed on Hugging Face and can be tested or used by users directly, 
 
 # Reference
 In Process.
+
+# License
+
+This BioVix is licensed under the MIT License - see the [LICENSE](License) file for details.
+Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/BioVix/blob/main/License).
+
 
 # Contact Us
 For any questions or issues, please contact us at:
