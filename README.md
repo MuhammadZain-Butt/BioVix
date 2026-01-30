@@ -3,13 +3,13 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-green)
 ![Contributors](https://img.shields.io/badge/contributors-4-blueviolet)
-![Stars](https://img.shields.io/badge/stars-★_10-yellow)
+
 
 ## Table of Contents
 1. [overview](#overview)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
-4. [Installation](#installation)
+4. [BioVix Installation](#biovix-installation)
 5. [Running BioVix](#running-biovix)
 6. [Outputs](#outputs)
 7. [Deployment](#deployment)
@@ -44,7 +44,7 @@ BioVix is an AI-assisted visualization tool built on Streamlit that streamlines 
   - [Qwen API (via OpenRouter)](https://openrouter.ai/qwen/qwen2.5-vl-32b-instruct)
   - [Semantic Scholar API](https://www.semanticscholar.org/product/api#api-key)
 
-## Installation
+## BioVix Installation
 
 ### 1. Clone the repository
 
