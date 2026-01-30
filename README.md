@@ -1,8 +1,8 @@
 # BioVix: An Integrated Tool for Data Visualization, AI-Powered Interpretation, and Scholarly Literature Search via Natural Language Query (NLQ)
-
+![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Overview
 
-BioVix is a Streamlit-based web application that combines data visualization with AI-powered insights. It enables users to upload datasets, generate interactive charts using natural language queries, and discover relevant academic research papers.mIt uses the plotly library for data vizualization, deepseek V3.1 for NLP and semantic scholar for literature search. And for the conversational feature we use the gpt oss 20b due to it's consistent and structured output format and qwen2.5-vl-32b-instruct is selected for processing the user quey with his uploaded graph to help the undersatnding realted it's graph pattern or trends.
+BioVix is a Streamlit-based web application that combines data visualization with AI-powered insights. It enables users to upload datasets, generate interactive charts using natural language queries, and discover relevant academic research papers. It uses the plotly library for data visualization, DeepSeek V3.1 for NLP, and Semantic Scholar for literature search. And for the conversational feature we use the GPT OSS 20b due to it's consistent and structured output format, and qwen2.5-vl-32b-instruct is selected for processing the user quey with its uploaded graph to help the undersatnding realted it's graph pattern or trends.
 
 
 ![User Interface](https://github.com/MuhammadZain-Butt/BioVix/blob/main/overview.jpg)
