@@ -99,7 +99,7 @@ Once the command runs, the app will automatically open in your default browser a
 
 ## Outputs
 
-The following panels illustrate the outputs of BioVix across varying datasets. Section A displays the raw input data, while Section B presents the corresponding interactive visualization rendered with Plotly. Section D provides the AI-generated interpretation of the graph, along with the derived search query. Finally, Section C lists the relevant research papers retrieved from Semantic Scholar using the formulated query: 
+The following panels illustrate the outputs of BioVix across varying datasets.  **(A)** displays the raw input data, while **(B,C,D)** presents the corresponding interactive visualization rendered with Plotly. **(E)** provides the AI-generated interpretation of the graph, along with the derived search query. Finally, **(F)** lists the relevant research papers retrieved from Semantic Scholar using the formulated query: 
 
 - **Figures**:
   1. **Gene-level Protein Expression Dataset**
