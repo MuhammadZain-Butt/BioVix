@@ -49,7 +49,7 @@ BioVix is an AI-assisted visualization tool built on Streamlit that streamlines 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MuhammadZainButt0/BioVix.git
+git clone https://github.com/MuhammadZain-Butt/BioVix.git
 cd BioVix
 ```
 
