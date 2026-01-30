@@ -122,23 +122,23 @@ The following panels illustrate the outputs of BioVix across varying datasets.  
 
 BioVix is deployed on Hugging Face and can be tested or used by users directly, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
 
-# Tips for Success
+## Tips for Success
 
 - Ensure that input files are correctly formatted (e.g., CSV, XLSX, or TSV) and contain all information required for visualization.
 - Write queries in a clear and detailed manner, and avoid using informal language.
 - Use consistent naming conventions for columns and variables to improve clarity and interpretation.
   
 
-# Reference
+## Reference
 In Process.
 
-# License and Issues
+## License and Issues
 
 This BioVix is licensed under the MIT License - see the [LICENSE](License) file for details.
 Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/BioVix/issues).
 
 
-# Contact Us
+## Contact Us
 For any questions or issues, please contact us at:
 - **Mr. Muhammad Zain Butt**: [zain.202302328@gcuf.edu.pk](mailto:zain.202302328@gcuf.edu.pk)
 - **Mr. Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
