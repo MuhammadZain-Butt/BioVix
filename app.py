@@ -14,17 +14,17 @@ import base64
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2A24CE;">
-  <h1 style="color: white; margin-right: 20px;">BioVis</h1>
+  <h1 style="color: white; margin-right: 20px;">BioVix</h1>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">  <!-- ml-auto pushes items to the right -->
       <li class="nav-item active">
-        <a class="nav-link" href="#">Resources <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://github.com/MuhammadZain-Butt/BioVix/blob/main/README.md">Installation<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="https://github.com/MuhammadZain-Butt/BioVix/blob/main/README.md#authors-and-contacts">Contact Us</a>
       </li>
     </ul>
   </div>
@@ -34,7 +34,7 @@ st.markdown("""
 
 
 st.set_page_config(
-    page_title="BioVis",
+    page_title="BioVix",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -219,12 +219,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown("""
 <style>
-
 /* 1. Hide Streamlit’s own top header */
 header[data-testid="stHeader"] {
     display: none !important;
 }
-
 /* 2. Bring your Bootstrap navbar to the very front */
 nav.navbar {
     position: fixed !important;
@@ -233,17 +231,14 @@ nav.navbar {
     right: 0 !important;
     z-index: 999999 !important;
 }
-
 /* 3. Push the whole Streamlit app content downward */
 .stApp {
     padding-top: 75px !important;
 }
-
 /* 4. Fix Streamlit’s main container (prevents overlapping) */
 main[data-testid="stAppViewContainer"] {
     padding-top: 75px !important;
 }
-
 </style>
 """, unsafe_allow_html=True)
 
@@ -296,8 +291,8 @@ def clean_code(text: str) -> str:
 
 def generate_chart_code(columns: str, query: str) -> str:
     messages = [
-        {"role": "system", "content": "You are a data visualization assistant."},
-        {"role": "user", "content": f"The user uploaded a dataset with the following columns:\n{columns}\n\nThe user asked: '{query}'\n\nWrite valid Python code that:\n1. Uses Plotly (px or go) to create the most appropriate chart.\n2. The dataframe is available as `df`.\n3. Save the chart as a variable named `fig`.\n\nOnly return the code. Do not include explanations.And first validate that the headers or information mentioned in the user query is present. If it is not present then don't generate the code"}
+        {"role": "system", "content": "You are an intelligent data visualization assistant."},
+        {"role": "user", "content": f"The user uploaded a dataset with the following columns:\n{columns}\n\nThe user asked: '{query}'\n\nWrite valid Python code that:\n1. Uses Plotly (px or go) to create the most appropriate chart.\n2. The dataframe is available as `df`.\n3. Save the chart as a variable named `fig`.\n\nOnly return the code. Do not include explanations."}
     ]
     
     try:
@@ -496,15 +491,7 @@ def create_sample_data_from_drive(sample_choice: str) -> pd.DataFrame:
             download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
             df = pd.read_csv(download_url)
             return df
-        if sample_choice == "Clinical Diabetes Data":
-            # Use the share link you provided
-            share_url = "https://drive.google.com/file/d/1kdhxtQSsbU0xdgv4jPgYvEX-DDRIEOqc/view?usp=drive_link"
-            file_id = share_url.split("/")[-2]
-            download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-            df = pd.read_csv(download_url)
-            return df
-        # fallback or other sample choices ...
-        return None
+    
 
     except Exception as e:
         st.error(f"⚠️ Error creating sample data: {e}")
@@ -521,8 +508,8 @@ if 'fig' not in st.session_state:
 if st.session_state.df is None:
     st.markdown("""
     <div class="main-header">
-        <h1> What is BioVis?</h1>
-        <p>BioVis is an innovative web-based tool that integrates data visualization, AI-powered interpretation, and relevant literature search—all from a single query. It allows users to visualize their uploaded data and discover pertinent research articles seamlessly. Additionally, BioVis supports both conversational and uploaded graph interpretation to enhance users’ understanding of their data trends and patterns.</strong></p>
+        <h1> What is BioVix?</h1>
+        <p>BioVix is an innovative web-based tool that integrates data visualization, AI-powered interpretation, and relevant literature search—all from a single query. It allows users to visualize their uploaded data and discover pertinent research articles seamlessly. Additionally, BioVix supports both conversational and uploaded graph interpretation to enhance users’ understanding of their data trends and patterns.</strong></p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -554,7 +541,7 @@ with st.sidebar:
     st.markdown("### Sample Datasets")
     sample_choice = st.radio(
         "Or load a sample dataset:",
-        ( "None","Population Data", "Immigration Data", "Clinical_Diabetes Data"),
+        ( "None","Population Data", "Immigration Data"),
         
     )
     
@@ -581,13 +568,10 @@ with st.sidebar:
 Dataset Info:
 - Shape: {df.shape[0]} rows, {df.shape[1]} columns
 - Columns: {', '.join(df.columns.tolist())}
-
 Data Preview (first 5 rows):
 {df.head().to_string()}
-
 Statistical Summary:
 {df.describe().to_string() if len(df.select_dtypes(include=['number']).columns) > 0 else 'No numeric columns'}
-
 Missing Values:
 {df.isnull().sum().to_dict()}
 """
@@ -785,7 +769,7 @@ if st.session_state.df is not None:
                 while attempt < max_attempts and not success:
                     try:
                         with st.spinner(f"Executing visualization (attempt {attempt + 1})..."):
-                            exec(code, {}, local_vars)
+                            exec(code, local_vars, local_vars)
 
                         if "fig" not in local_vars:
                             raise ValueError("No `fig` variable was created in the code.")
@@ -935,3 +919,4 @@ if st.session_state.df is not None:
                     <p>Unable to generate chart code. Please check your API configuration or try a simpler query.</p>
                 </div>
                 """, unsafe_allow_html=True)
+
