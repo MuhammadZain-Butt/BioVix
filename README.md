@@ -91,7 +91,7 @@ shows the relevant research papers which BioVix retrieve from the Semantic schol
      
   3. **Clinical Diabetic Dataset**
      
-     ![Clinical Diabetic Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Clinical_Diabetic.png)
+     ![Clinical Diabetic Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure06.jpg)
 
 
 
