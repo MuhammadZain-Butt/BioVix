@@ -16,7 +16,7 @@
 8. [Tips for Success](#tips-for-success)
 9. [Reference](#reference)
 10. [License and Issues](#license-and-issues)
-11. [Contact Us](#contact-us)
+11. [Authors and Contacts](#authors-and-contacts)
 
 ## overview
 
@@ -137,13 +137,25 @@ In Process.
 This BioVix is licensed under the MIT License - see the [LICENSE](License) file for details.
 Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/BioVix/issues).
 
+## Authors and Contacts
 
-## Contact Us
-For any questions or issues, please contact us at:
-- **Mr. Muhammad Zain Butt**: [zain.202302328@gcuf.edu.pk](mailto:zain.202302328@gcuf.edu.pk)
-- **Mr. Rana Sheraz Ahmad**: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
-- **Ms. Eman Fatima**: [eman.202204127@gcuf.edu.pk](mailto:eman.202204127@gcuf.edu.pk)
-- **Dr. Muhammad Tahir ul Qamar**: [m.tahirulqamar@hotmail.com](mailto:tahirulqamar@gcuf.edu.pk)
+**Mr. Muhammad Zain Butt**  
+*Integrative Omics and Molecular Modeling Laboratory, Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan*  
+Email: [zain.202302328@gcuf.edu.pk](mailto:zain.202302328@gcuf.edu.pk)
+
+**Mr. Rana Sheraz Ahmad**  
+*Integrative Omics and Molecular Modeling Laboratory, Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan*  
+Email: [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
+
+**Ms. Eman Fatima**  
+*Integrative Omics and Molecular Modeling Laboratory, Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan*  
+Email: [eman.202204127@gcuf.edu.pk](mailto:eman.202204127@gcuf.edu.pk)
+
+**Dr. Muhammad Tahir ul Qamar** *(Correspondence)*  
+*Integrative Omics and Molecular Modeling Laboratory, Department of Bioinformatics and Biotechnology, Government College University Faisalabad (GCUF), Faisalabad, 38000, Pakistan*  
+Email: [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)
+
+
 
 
 
