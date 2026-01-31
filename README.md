@@ -66,7 +66,7 @@ Note: Replace `env_name` with your preferred name for the virtual environment.
 #### Linux / macOS:
 ```powershell
 python3 -m venv env_name
-source env_name\bin\activate
+source env_name/bin/activate
 ```
 Note: Replace `env_name` with your preferred name for the virtual environment.
 
