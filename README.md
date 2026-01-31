@@ -38,7 +38,7 @@ BioVix is an AI-assisted visualization tool built on Streamlit that streamlines 
 
 ## Prerequisites
 
-- [Python 3.8+](https://www.python.org/downloads/)
+- [Python <3.9 and >=3.11](https://www.python.org/downloads/)
 - API keys for:
   - [DeepSeek API (via OpenRouter)](https://openrouter.ai/deepseek/deepseek-chat-v3.1)
   - [GPT API (via OpenRouter)](https://openrouter.ai/openai/gpt-oss-20b:free)
@@ -59,8 +59,8 @@ It is highly recommended to use a virtual environment to avoid dependency confli
 
 #### Windows:
 ```powershell
-python -m venv env_name
-.env_name\Scripts\activate.bat
+python -m venv env
+env\Scripts\activate
 ```
 Note: Replace `env_name` with your preferred name for the virtual environment.
 #### Linux / macOS:
