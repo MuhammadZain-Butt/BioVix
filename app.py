@@ -1,5 +1,11 @@
 import os
 import streamlit as st
+st.set_page_config(
+    page_title="BioVix",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -30,14 +36,6 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
-
-
-
-st.set_page_config(
-    page_title="BioVix",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 st.markdown("""
 <style>
@@ -518,8 +516,8 @@ if st.session_state.df is None:
     with st.container():
         # Centering using columns
         col1, col2, col3 = st.columns([1, 2, 1])
-        with col2:
-            st.image("overview.jpg", width=900)
+        with col1:
+            st.image("overview.jpg", width=600)
            
 
 
@@ -588,7 +586,7 @@ Missing Values:
                         ]
                         
                         response = gpt_client.chat.completions.create(
-                            model="openai/gpt-oss-20b:free",
+                            model="openai/gpt-oss-20b",
                             messages=messages,
                             temperature=0.7,
                             max_tokens=800
