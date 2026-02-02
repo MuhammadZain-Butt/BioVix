@@ -120,7 +120,7 @@ The following panels illustrate the outputs of BioVix across varying datasets.  
 
 ## Deployment
 
-BioVix is deployed on Hugging Face and can be tested or used by users directly, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
+BioVix is deployed on Hugging Face and can be tested or used directly, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
 
 ## Tips for Success
 
