@@ -18,7 +18,7 @@
 10. [License and Issues](#license-and-issues)
 11. [Authors and Contacts](#authors-and-contacts)
 
-## overview
+## Overview
 
 BioVix is an AI-assisted visualization tool built on Streamlit that streamlines the workflow from data analysis to literature discovery. By integrating Plotly for visualization, DeepSeek V3.1 for query processing, and Semantic Scholar for bibliographic search, it offers a robust analytical environment. Furthermore, the system incorporates GPT-OSS-20B for structured dialogue and Qwen2.5-VL-32B-Instruct for visual graph reasoning, enabling users to gain a deeper understanding of data trends through natural language interaction.
 
@@ -129,7 +129,7 @@ BioVix is deployed on Hugging Face and can be tested or used directly, [click he
 - Use consistent naming conventions for columns and variables to improve clarity and interpretation.
   
 
-## Reference
+## References
 In Process.
 
 ## License and Issues
